@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(209, 218, 235);
+}
+
+.frm {
+    border-radius: 5px;
+    background-color: rgb(83, 204, 157);
+    margin: 100px auto;
+    width: 340px;
+    text-align: center;
+    padding: 20px;
+}
+
+.frm p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.frm input {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    border: hidden;
+}
+
+.frm button {
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: rgb(37, 165, 37);
+    color: white;
+    border: hidden;
+}
